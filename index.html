@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Brasília</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Shalimar&display=swap');
+        /*font-family: 'Shalimar', cursive;*/
+
+        @import url('https://fonts.googleapis.com/css2?family=Genos:wght@100;400&family=Montserrat:wght@100&family=Shalimar&display=swap');
+        /*font-family: 'Genos', sans-serif;*/
+
+        html * {
+            /* INSERIR COR EM TODOS OS ELEMENTOS */
+            color: white;
+            /* RESET CSS */
+            margin: 0;
+            padding: 0;
+        }
+
+        span {
+            background-color: rgb(48, 83, 148);
+        }
+
+        #titulo{
+            /* COR DA FONTE */
+            color: white;
+            /* ALINHAMENTO CENTRALIZADO DO TEXTO */
+            text-align: center;    
+            /* FAMÍLIA TIPOGRÁFICA */
+            font-family: 'Shalimar', cursive;
+            /* TAMANHO DA FONTE */
+            font-size: 48px;
+            /* ESTILO DA FONTE */
+            font-style: oblique;
+            /* ESPESSURA DA FONTE */
+            font-weight: 200;
+            /* COR DE FUNDO DO TÍTULO */
+            background-color: rgb(48, 83, 148);
+            /* ESPAÇAMENTO */
+            padding: 10px;
+        }
+
+        #resumo {
+            /* TAMANHO */
+            padding: 15px;
+            /* ALINHAMENTO DO TEXTO */
+            text-align: center;
+            /* FAMÍLIA TIPOGRÁFICA */
+            font-family: 'Genos', sans-serif;
+            /* TAMANHO DA FONTE */
+            font-size: 20px;
+            /* ESTILO DA FONTE */
+            font-style: oblique;
+            text-shadow: 2px 2px black;
+        }
+
+        ul {
+            /* ALINHAMENTO */
+            text-align: center;
+            /* FAMILIA TIPOGRÁFICA */
+            font-family: 'Genos', sans-serif;
+            /* TAMANHO DA FONTE */
+            font-size: 24px;
+            /* ESTILO DA FONTE */
+            font-style: oblique;
+            /* MARGEM */
+            margin: 20px 0px;
+            text-shadow: 2px 2px black;
+        }
+
+        #corpo {
+            background-image: url("imagem/Brasilia.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        #principal {
+            text-align: center;
+        }
+
+        .subtitulo {
+            /* COR DA FONTE */
+            color: white;
+            /* ALINHAMENTO CENTRALIZADO DO TEXTO */
+            text-align: center;
+            /* FAMÍLIA TIPOGRÁFICA */
+            font-family: 'Lobster', cursive;
+            /* TAMANHO DA FONTE */
+            font-size: 32px;
+            /* ESTILO DA FONTE */
+            font-style: oblique;
+            /* ESPESSURA DA FONTE */
+            font-weight: 200;
+            /* ESPAÇAMENTO */
+            padding: 10px;
+        }
+
+        #rodape {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .icones {
+            margin: 20px;
+            width: 70px;
+            height: 70px;
+        }
+
+
+
+    </style>
+</head>
+<body id="corpo">
+    <header id="cabecalho">
+        <h1 id="titulo">Cidade de Brasília</h1>
+        <p id="resumo">
+            <strong>Brasília</strong>, inaugurada como capital do Brasil em 1960, é uma cidade planeada que se distingue pela sua arquitetura branca e moderna, 
+            essencialmente concebida por Oscar Niemeyer. Disposta em forma de avião, a sua "fuselagem" é o Eixo Monumental, 2 avenidas amplas flanqueadas por um enorme parque. No "cockpit" 
+            encontra-se a Praça dos Três Poderes, cujo nome provém das 3 agências do governo que a rodeiam.
+        </p>
+    </header>
+    <main id="principal">
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/9UJuZvWwgt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2 class="subtitulo">Curiosidades</h2>
+        <ul>
+            <li>
+                Olhando de cima, é possível enxergar o formato de um avião em Brasília.
+            </li>
+            <li>
+                Um dos cartões postais de Brasília é o Lago Paranoá.
+            </li>
+            <li>
+                A cidade foi planejada pelo urbanista Lúcio Costa e sob orientação do arquiteto Oscar Niemeyer.
+            </li>
+            <li>
+                A cidade de Brasília começou a surgir através de planos que idealizavam a capital federal do Brasil no centro do país.
+            </li>
+            <li>
+                A Capital Federal do Brasil recebeu o título de Patrimônio Cultural da Humanidade pela UNESCO em 7 de dezembro de 1987.
+            </li>
+        </ul>
+    </main>
+    <footer id="rodape">
+        <a href="https://www.instagram.com/gov_df/?hl=pt-br" target="_blank">
+            <img src="imagem/ico-instagram.png" class="icones">
+        </a>
+        <a href="https://www.youtube.com/c/govdf" target="_blank">
+            <img src="imagem/ico-youtube.jpg" class="icones">
+        </a>
+    </footer>
+    
+</body>
+</html>
